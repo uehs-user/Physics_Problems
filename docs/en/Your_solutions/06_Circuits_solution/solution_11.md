@@ -1,39 +1,59 @@
-The power dissipated by the resistor is **$25\text{ W}$**, and the total energy consumed over 5 minutes is **$7,500\text{ J}$** (or **$7.5\text{ kJ}$**).
+### 1. Identify Given Values
 
-### 1. Identify the Given Values
-First, extract the known variables from the problem statement:
-* Resistance ($R$) = $100\ \Omega$
-* Voltage ($V$) = $50\text{ V}$
-* Time ($t$) = $5\text{ minutes}$
+* **Voltage ($V$)** = $50\text{ V}$
+* **Resistance ($R$)** = $100\ \Omega$
+* **Time ($t$)** = $5\text{ minutes}$
 
-### 2. Calculate Power Dissipated
-Use Joule's Law relating power, voltage, and resistance:
+---
 
-$$P = \frac{V^2}{R}$$
+### 2. Find Current ($I$) First
 
-Substitute the given values into the formula:
+In school, you always start with **Ohm's Law**. 
+This formula finds the electric current ($I$), which is the flow of electricity.
 
-$$P = \frac{(50\text{ V})^2}{100\ \Omega}$$
+$$I = \frac{V}{R}$$
 
-$$P = \frac{2500}{100} = 25\text{ W}$$
+* Divide voltage by resistance:
+* 
+$$\frac{50\text{ V}}{100\ \Omega} = 0.5\text{ A}$$
 
-### 3. Convert Time to Seconds
-Energy calculations require time in standard SI units (seconds):
+The current is **$0.5\text{ Amperes}$**.
 
-$$t = 5\text{ minutes} \times 60\text{ seconds/minute}$$
+---
 
-$$t = 300\text{ seconds}$$
+### 3. Calculate Power ($P$)
 
-### 4. Calculate Energy Consumed
-Use the electrical energy formula relating power and time:
+Now use the primary school formula for power. 
+Power is just voltage multiplied by current.
+
+$$P = V \times I$$
+
+* Multiply voltage by your new current:
+* 
+$$50\text{ V} \times 0.5\text{ A} = 25\text{ W}$$
+
+The power is **$25\text{ Watts}$**.
+
+---
+
+### 4. Convert Time to Seconds
+
+Time must always be in seconds for physics formulas.
+
+* $1\text{ minute} = 60\text{ seconds}$
+* 
+* $5\text{ minutes} \times 60 = 300\text{ seconds}$
+
+---
+
+### 5. Calculate Energy ($E$)
+
+The fundamental formula for energy is power multiplied by time.
 
 $$E = P \times t$$
 
-Substitute the power and time values:
+* Multiply your power by the time in seconds:
+* 
+$$25\text{ W} \times 300\text{ s} = 7,500\text{ J}$$
 
-$$E = 25\text{ W} \times 300\text{ seconds}$$
-
-$$E = 7,500\text{ J}$$
-
-## Final Answer ✅
-The resistor dissipates a electrical power of $25\text{ W}$ and consumes a total of $7,500\text{ J}$ of energy during the 5-minute interval.
+The energy consumed is **$7,500\text{ Joules}$**.

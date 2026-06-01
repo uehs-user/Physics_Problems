@@ -41,7 +41,7 @@ $$\frac{\Delta A}{A} = \frac{\Delta L}{L} + \frac{\Delta W}{W}$$
 4. **Multiply by the nominal Area ($A$)** to get the absolute uncertainty ($\Delta A$):
    $$\Delta A = 128.52 \times 0.01844 \approx 2.37 \text{ cm}^2$$
 
-Rounding to one significant figure for uncertainty gives **$\Delta A \approx 2.4 \text{ cm}^2$**.
+Rounding to one significant figure for uncertainty gives **$\Delta A \approx 2.37 \text{ cm}^2$**.
 
 ---
 
